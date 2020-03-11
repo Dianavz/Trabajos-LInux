@@ -1,0 +1,67 @@
+package universidad;
+public class Universidad {
+public static void main(String[] args) {
+       usuario();
+       roles();
+       plantel();
+       carrera();
+       turnos();
+       modalidad();
+       horario();
+       grupos();
+       materia(); 
+}
+
+private static void usuario() {
+      int Idusuario;
+       String nombre;
+       String apellidoM;
+       String apellidoP;
+}
+
+private static void roles() {
+        int Idroles;
+        String puesto;
+        String matricula;
+}
+
+private static void plantel() {
+        int Idplantel;
+        String palntel;
+        String direccion;
+}
+
+private static void carrera() {
+        int Idcarrera;
+        String carrera;
+        String descripcion;
+}
+
+private static void turnos() {
+        int Idturno;
+        String matuino;
+        String despertino;
+}
+
+private static void modalidad() {
+        int Idmodalidad;
+        String escolarizada;
+        String ejecutiva;
+}
+
+private static void horario() {
+        int Idhora;
+        float hora;
+}
+
+private static void grupos() {
+        int Idgrupo;
+        String grupo;
+}
+
+private static void materia() {
+        int Idmateria;
+        String materia;
+        String descrip;  
+}   
+}
